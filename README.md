@@ -42,8 +42,8 @@ Change three config files — theme, fonts and content — and you have a brand-
 Click **Use this template** on GitHub to create a new repository, then clone it:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Sa3ed-031/landing-template.git
+cd landing-template
 npm install
 npm run dev
 ```
