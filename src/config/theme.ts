@@ -2,14 +2,14 @@ import { Theme } from "@/types/theme";
 
 export const theme: Theme = {
   colors: {
-    primary: "#EA580C",
+    primary: "#4F46E5",
     primaryForeground: "#FFFFFF",
-    secondary: "#166534",
-    background: "#FFFBF5",
+    secondary: "#0F766E",
+    background: "#F8FAFC",
     surface: "#FFFFFF",
-    foreground: "#1C1917",
-    muted: "#78716C",
-    border: "#E7E5E4",
+    foreground: "#0F172A",
+    muted: "#64748B",
+    border: "#E2E8F0",
   },
   radius: "1rem",
 };
