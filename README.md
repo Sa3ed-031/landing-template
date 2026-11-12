@@ -42,8 +42,8 @@ Change three config files — theme, fonts and content — and you have a brand-
 Click **Use this template** on GitHub to create a new repository, then clone it:
 
 ```bash
-git clone https://github.com/Sa3ed-031/landing-template.git
-cd landing-template
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 npm install
 npm run dev
 ```
@@ -80,7 +80,7 @@ The base path is taken from the repository name, so any repo created from this t
 // src/config/theme.ts
 export const theme: Theme = {
   colors: {
-    primary: "#EA580C",
+    primary: "#4F46E5",
     primaryForeground: "#FFFFFF",
     // ...
   },
@@ -149,9 +149,16 @@ src/
 
 ---
 
+## 🌐 Built with this template
+
+- **[Menu Landing](https://sa3ed-031.github.io/menu-landing/)** — landing page for a QR digital menu service for restaurants & cafés
+
+---
+
 ## 📄 License
 
-Free to use for personal and client projects.
+© 2026 Saeed Al-Haj Hussein. All rights reserved.
+This repository is public for portfolio purposes, not commercial ones.
 
 ---
 
