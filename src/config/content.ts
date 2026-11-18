@@ -8,6 +8,8 @@ export const content: SiteContent = {
     title: "اسم البراند | جملة قصيرة بتوصف الخدمة",
     description:
       "وصف من سطر أو سطرين بيطلع بنتائج جوجل وبمعاينة الرابط على واتساب وفيسبوك.",
+    // رابط الموقع الكامل، وصورة المعاينة لازم تكون بـ public/og.png
+    url: "https://sa3ed-031.github.io/landing-template",
     lang: "ar",
     dir: "rtl",
   },

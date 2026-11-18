@@ -21,6 +21,7 @@ export type SiteMeta = {
   name: string;
   title: string;
   description: string;
+  url: string; // full site URL, used for the preview image links
   lang: "ar" | "en";
   dir: "rtl" | "ltr";
 };
