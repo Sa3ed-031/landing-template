@@ -41,11 +41,12 @@ Change three config files — theme, fonts and content — and you have a brand-
 
 Click **Use this template** on GitHub to create a new repository.
 
-Option A: edit online (no setup)
+**Option A: edit online (no setup)**
 
-Edit the files in src/config directly on GitHub and commit. GitHub Actions deploys the page automatically.
+Edit the files in `src/config` directly on GitHub and commit. GitHub Actions deploys the page automatically.
 
-Option B: run it locally
+**Option B: run it locally**
+
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
@@ -160,11 +161,11 @@ src/
 
 ---
 
-⭐ Support
+## ⭐ Support
 
 If this template saved you time, a ⭐ helps others find it.
 
-💼 Need a landing page?
+## 💼 Need a landing page?
 
 I build landing pages, business websites and web apps with React, Next.js and Tailwind CSS. [Portfolio](https://sa3ed-031.github.io/) · [LinkedIn](https://www.linkedin.com/in/sa3ed-al-haj-hussein)
 
