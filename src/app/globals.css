@@ -12,6 +12,7 @@
     --radius-brand: var(--brand-radius);
 
     --font-sans: var(--brand-font-body);
+    --font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
     --font-heading: var(--brand-font-heading);
 }
 

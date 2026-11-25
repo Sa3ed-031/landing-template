@@ -23,7 +23,7 @@ export function Steps({
             key={step.title}
             className="text-center flex flex-col items-center gap-4"
           >
-            <span className="text-xl size-14 font-extrabold flex items-center justify-center rounded-full shadow-lg text-primary-foreground bg-primary shadow-primary/30">
+            <span className="text-xl size-14 font-extrabold leading-none flex items-center justify-center rounded-full shadow-lg text-primary-foreground bg-primary shadow-primary/30">
               {index + 1}
             </span>
             <h3 className="text-xl font-bold">{step.title}</h3>
