@@ -166,7 +166,7 @@ If this template saved you time, a ⭐ helps others find it.
 
 💼 Need a landing page?
 
-I build landing pages, business websites and web apps with React, Next.js and Tailwind CSS. [Portfolio]([url](https://sa3ed-031.github.io/)) · [LinkedIn]([url](https://www.linkedin.com/in/sa3ed-al-haj-hussein))
+I build landing pages, business websites and web apps with React, Next.js and Tailwind CSS. [Portfolio](https://sa3ed-031.github.io/) · [LinkedIn](https://www.linkedin.com/in/sa3ed-al-haj-hussein)
 
 ## 📄 License
 
