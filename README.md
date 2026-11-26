@@ -100,13 +100,22 @@ Colors become CSS variables and Tailwind utilities: `bg-primary`, `text-muted`, 
 
 ```ts
 // src/config/fonts.ts
-import { Cairo, Tajawal } from "next/font/google";
+import localFont from "next/font/local";
 
-export const headingFont = Cairo({
-  /* ... */ variable: "--brand-font-heading",
+export const headingFont = localFont({
+  src: "./fonts/Cairo.woff2",
+  variable: "--brand-font-heading",
 });
-export const bodyFont = Tajawal({ /* ... */ variable: "--brand-font-body" });
+
+export const bodyFont = localFont({
+  src: [
+    { path: "./fonts/Tajawal-Regular.woff2", weight: "400" },
+    { path: "./fonts/Tajawal-Bold.woff2", weight: "700" },
+  ],
+  variable: "--brand-font-body",
+});
 ```
+Put your `.woff2` files in `src/config/fonts/` and point `src` to them.
 
 Headings use the heading font automatically; everything else uses the body font.
 
